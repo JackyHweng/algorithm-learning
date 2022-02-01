@@ -1,0 +1,17 @@
+
+P
+java:S1118":Add a private constructor to hide the implicit public one.(…œíÌ
+h
+java:S3776/"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(Øßý°
+G
+java:S1172/"1Remove this unused method parameter "numCourses".(Øßý°
+€
+java:S1319&"eThe type of "nexts" should be an interface such as "List" rather than the implementation "ArrayList".(ëÁ§óüÿÿÿÿ
+e
+java:S1104""PMake name a static final constant or non-public and provide accessors if needed.(£ö°z
+i
+java:S1104$"NMake in a static final constant or non-public and provide accessors if needed.(³ËÊÕþÿÿÿÿ
+l
+java:S1104&"QMake nexts a static final constant or non-public and provide accessors if needed.(ëÁ§óüÿÿÿÿ
+b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(…œíÌ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(íí¶á

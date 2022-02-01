@@ -1,0 +1,98 @@
+package com.jacky.algorithm.followup;
+
+/**
+ * <p>
+ * 树状数组
+ *
+ * https://leetcode-cn.com/problems/count-of-smaller-numbers-after-self/solution/shu-zhuang-shu-zu-by-liweiwei1419/
+ *
+ * </p>
+ *
+ * @author: HuangJiaJie
+ * @create: 2022/1/27
+ **/
+public class FollowIndexTree {
+
+	public static class IndexTree {
+
+		private int[] tree;
+		private int N;
+
+		public IndexTree(int size) {
+			N = size;
+			tree = new int[N + 1];
+		}
+
+		// 0 ~ index 范围上的累加和
+		public int sum(int index) {
+			int ret = 0;
+			while (index > 0) {
+				ret += tree[index];
+				// 提取index 最右的1
+				index -= index & -index;
+				// 0110011000  index
+				// 1001100111  (~index)
+				// 1001101000  (~index + 1)
+				// 0000001000  (index & (~index + 1))
+				// index -= index & (~index + 1);
+			}
+			return ret;
+		}
+
+		// index位置的数，想加上d，还有哪些位置也要都加d
+		public void add(int index, int d) {
+			while (index <= N) {
+			    // 自己先加上d
+				tree[index] += d;
+				//每次都加上自己的最右侧的1
+				index += index & -index;
+			}
+		}
+	}
+
+	public static class Right {
+		private int[] nums;
+		private int N;
+
+		public Right(int size) {
+			N = size + 1;
+			nums = new int[N + 1];
+		}
+
+		public int sum(int index) {
+			int ret = 0;
+			for (int i = 1; i <= index; i++) {
+				ret += nums[i];
+			}
+			return ret;
+		}
+
+		public void add(int index, int d) {
+			nums[index] += d;
+		}
+
+	}
+
+	public static void main(String[] args) {
+		int N = 100;
+		int V = 100;
+		int testTime = 2000000;
+		IndexTree tree = new IndexTree(N);
+		Right test = new Right(N);
+		System.out.println("test begin");
+		for (int i = 0; i < testTime; i++) {
+			int index = (int) (Math.random() * N) + 1;
+			if (Math.random() <= 0.5) {
+				int add = (int) (Math.random() * V);
+				tree.add(index, add);
+				test.add(index, add);
+			} else {
+				if (tree.sum(index) != test.sum(index)) {
+					System.out.println("Oops!");
+				}
+			}
+		}
+		System.out.println("test finish");
+	}
+
+}

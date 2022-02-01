@@ -1,0 +1,16 @@
+
+P
+java:S1118":Add a private constructor to hide the implicit public one.(ØĞõò
+n	java:S135R"YReduce the total number of break and continue statements in this loop to use at most one.(±äŒÒ
+z
+java:S1319"dThe type of "path" should be an interface such as "List" rather than the implementation "ArrayList".(·×Š¤
+e	java:S117M"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(’Óäl
+e
+java:S1104	"PMake path a static final constant or non-public and provide accessors if needed.(‡ÛÛ?
+j
+java:S1104
+"OMake end a static final constant or non-public and provide accessors if needed.(êĞ§íûÿÿÿÿ
+l
+java:S1104"QMake nexts a static final constant or non-public and provide accessors if needed.(õ¨üøÿÿÿÿ
+b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ØĞõò
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(íí¶á

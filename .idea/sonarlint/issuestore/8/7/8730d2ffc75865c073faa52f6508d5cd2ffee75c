@@ -1,0 +1,7 @@
+
+f	java:S116"LRename this field "N" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(›¼ÿ»øÿÿÿÿ
+]	java:S125"<This block of commented-out lines of code should be removed.(¾¼ãÍùÿÿÿÿ8ã¹ó”ê/
+D
+java:S2140)")Use "java.util.Random.nextInt()" instead.(´·ÛÀýÿÿÿÿ
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(„ìÀûúÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(íí¶á

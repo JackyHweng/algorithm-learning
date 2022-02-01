@@ -1,0 +1,11 @@
+
+R	java:S125ˆ"<This block of commented-out lines of code should be removed.(Õò®î
+R	java:S125"<This block of commented-out lines of code should be removed.(‡±¶á
+R	java:S125“"<This block of commented-out lines of code should be removed.(ñôóÅ
+O	java:S106Æ"9Replace this use of System.out or System.err by a logger.(ö–ËÖ
+l
+java:S1104%"QMake value a static final constant or non-public and provide accessors if needed.(‚¯¥ùÿÿÿÿ
+l
+java:S1104&"QMake index a static final constant or non-public and provide accessors if needed.(×´úÕúÿÿÿÿ
+b	java:S101""MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(šø©À
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(íí¶á

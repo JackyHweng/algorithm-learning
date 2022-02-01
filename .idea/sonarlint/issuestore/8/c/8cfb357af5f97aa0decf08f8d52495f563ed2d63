@@ -1,0 +1,12 @@
+
+f	java:S116"LRename this field "N" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(›¼ÿ»øÿÿÿÿ
+f	java:S116""LRename this field "N" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(›¼ÿ»øÿÿÿÿ
+S	java:S106="9Replace this use of System.out or System.err by a logger.(¸íÆ¤ûÿÿÿÿ
+?
+java:S2140?")Use "java.util.Random.nextInt()" instead.(Ğš«
+D
+java:S2140A")Use "java.util.Random.nextInt()" instead.(¦£â¡ÿÿÿÿÿ
+N	java:S106F"9Replace this use of System.out or System.err by a logger.(„½˜Ù
+N	java:S106J"9Replace this use of System.out or System.err by a logger.(ìÇÔ¶
+f	java:S1178"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¤¬›•
+k	java:S1179"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(µ†Åõÿÿÿÿÿ

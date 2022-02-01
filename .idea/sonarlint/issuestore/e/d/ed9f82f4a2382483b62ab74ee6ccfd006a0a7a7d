@@ -1,0 +1,11 @@
+
+J
+java:S1172"/Remove these unused method parameters "x", "i".(ð¾Ýõÿÿÿÿÿ
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(†Í§¥ýÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(íí¶á
+T
+java:S2589!"7Remove this expression which always evaluates to "true"(„˜™à8Ý¿ö¹é/
+T
+java:S2589"7Remove this expression which always evaluates to "true"(„˜™à8Ý¿ö¹é/
+a
+java:S2583("DChange this condition so that it does not always evaluate to "false"(£‡£•8Ý¿ö¹é/

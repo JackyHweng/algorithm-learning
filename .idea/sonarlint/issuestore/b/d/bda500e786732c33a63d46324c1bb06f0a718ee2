@@ -1,0 +1,13 @@
+
+U
+java:S1118":Add a private constructor to hide the implicit public one.(ŸÑş¬ûÿÿÿÿ
+T
+java:S1135
+"2Complete the task associated to this TODO comment.(öË…æùÿÿÿÿ8ÚÁ¾Şâ/
+m
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 36 to the 15 allowed.(ø¤ıÿÿÿÿ
+J
+java:S28645"4Iterate over the "entrySet" instead of the "keySet".(¤‘ç
+k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(½Ü´¢úÿÿÿÿ
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ŸÑş¬ûÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(íí¶á

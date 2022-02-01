@@ -1,0 +1,20 @@
+
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ñ¼§
+T	java:S106"9Replace this use of System.out or System.err by a logger.(¸íÆ¤ûÿÿÿÿ
+@
+java:S2140")Use "java.util.Random.nextInt()" instead.(ˆ°‹ 
+E
+java:S2140‘")Use "java.util.Random.nextInt()" instead.(Õ…Ì´ùÿÿÿÿ
+@
+java:S2140’")Use "java.util.Random.nextInt()" instead.(í¢Êü
+@
+java:S2140“")Use "java.util.Random.nextInt()" instead.(àÁøñ
+E
+java:S2140”")Use "java.util.Random.nextInt()" instead.(ô‡ß²úÿÿÿÿ
+T	java:S106˜"9Replace this use of System.out or System.err by a logger.(†Œòşÿÿÿÿ
+T	java:S106™"9Replace this use of System.out or System.err by a logger.(²¶“ìşÿÿÿÿ
+T	java:S106š"9Replace this use of System.out or System.err by a logger.(–¨€·ûÿÿÿÿ
+O	java:S106›"9Replace this use of System.out or System.err by a logger.(Œá×÷
+O	java:S106œ"9Replace this use of System.out or System.err by a logger.(‰®
+O	java:S106 "9Replace this use of System.out or System.err by a logger.(ßèÜ›
+b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(òä«÷

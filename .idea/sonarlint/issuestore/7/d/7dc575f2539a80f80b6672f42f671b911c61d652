@@ -1,0 +1,19 @@
+
+>
+java:S2140u")Use "java.util.Random.nextInt()" instead.(¾¡š
+?
+java:S2140")Use "java.util.Random.nextInt()" instead.(…¥­
+@
+java:S2140")Use "java.util.Random.nextInt()" instead.(¤ãã³
+O	java:S106"9Replace this use of System.out or System.err by a logger.(„½˜Ù
+T	java:S106’"9Replace this use of System.out or System.err by a logger.(¤ÂÓÊÿÿÿÿÿ
+l
+java:S1104-"QMake happy a static final constant or non-public and provide accessors if needed.(æ”ñøÿÿÿÿ
+l
+java:S1104."QMake nexts a static final constant or non-public and provide accessors if needed.(…Ïûìşÿÿÿÿ
+e
+java:S1104Y"OMake yes a static final constant or non-public and provide accessors if needed.(Šé™à
+d
+java:S1104Z"NMake no a static final constant or non-public and provide accessors if needed.(Ë¥ÏÄ
+b	java:S101*"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ÛÇÏø
+n	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ƒ±ÁG

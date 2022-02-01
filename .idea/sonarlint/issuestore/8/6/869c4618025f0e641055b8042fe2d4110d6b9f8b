@@ -1,0 +1,10 @@
+
+P
+java:S1118":Add a private constructor to hide the implicit public one.(û„ÖÒ
+Z
+java:S3358"DExtract this nested ternary operation into an independent statement.(„Ç¹—
+Z
+java:S3358"DExtract this nested ternary operation into an independent statement.(„Ç¹—
+]	java:S125"<This block of commented-out lines of code should be removed.(¬€Èìûÿÿÿÿ8‚É—ê/
+b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(û„ÖÒ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(íí¶á

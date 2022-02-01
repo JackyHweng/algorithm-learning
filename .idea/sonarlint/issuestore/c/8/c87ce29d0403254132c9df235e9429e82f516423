@@ -1,0 +1,28 @@
+
+?
+java:S2140e")Use "java.util.Random.nextInt()" instead.(ÁíŞ
+?
+java:S2140r")Use "java.util.Random.nextInt()" instead.(“÷äÎ
+O	java:S106‰"9Replace this use of System.out or System.err by a logger.(„½˜Ù
+T	java:S106Œ"9Replace this use of System.out or System.err by a logger.(¤ÂÓÊÿÿÿÿÿ
+E
+java:S1066T"/Merge this if statement with the enclosing one.(–¥¼
+|
+java:S1319("fThe type of "parentMap" should be an interface such as "Map" rather than the implementation "HashMap".(Á½ô
+y
+java:S1319w"cThe type of "arr" should be an interface such as "List" rather than the implementation "ArrayList".(ãÖÑ‘
+l
+java:S1104
+"QMake value a static final constant or non-public and provide accessors if needed.(‚¯¥ùÿÿÿÿ
+f
+java:S1104"PMake left a static final constant or non-public and provide accessors if needed.(ó÷ÔÄ
+g
+java:S1104"QMake right a static final constant or non-public and provide accessors if needed.(Ö¢è¥
+e
+java:S11048"OMake ans a static final constant or non-public and provide accessors if needed.(¥‚Æ•
+m
+java:S11049"RMake findO1 a static final constant or non-public and provide accessors if needed.(ˆûÙçûÿÿÿÿ
+m
+java:S1104:"RMake findO2 a static final constant or non-public and provide accessors if needed.(—Òı†øÿÿÿÿ
+b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(¢ïò’
+n	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ƒ±ÁG

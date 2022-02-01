@@ -1,0 +1,15 @@
+
+9
+java:S1659Q"#Declare "count" on a separate line.(„¬áÚ
+o
+java:S2293E"YReplace the type specification in this constructor call with the diamond operator ("<>").(»Ý‹‘
+o
+java:S2293K"YReplace the type specification in this constructor call with the diamond operator ("<>").(ø¼êó
+>
+java:S1604K"(Make this anonymous inner class a lambda(ø¼êó
+e
+java:S1104"OMake num a static final constant or non-public and provide accessors if needed.(æßÜÈ
+l
+java:S1104"QMake count a static final constant or non-public and provide accessors if needed.(†Í˜Åýÿÿÿÿ
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ê•¬¡þÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(íí¶á

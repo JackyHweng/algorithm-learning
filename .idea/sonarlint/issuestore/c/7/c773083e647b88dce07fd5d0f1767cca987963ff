@@ -1,0 +1,14 @@
+
+m
+java:S3776,"RRefactor this method to reduce its Cognitive Complexity from 25 to the 15 allowed.(¿•ó¦ûÿÿÿÿ
+o
+java:S3776c"RRefactor this method to reduce its Cognitive Complexity from 23 to the 15 allowed.(ú£ÿÒ8¬½ô–ê/
+A
+java:S1659g"Declare "r" on a separate line.(à¡ÉÏüÿÿÿÿ8¯½ô–ê/
+e	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(’Óäl
+e	java:S117."QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(’Óäl
+k	java:S117:"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ëÅœÓüÿÿÿÿ
+l	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Õ—´Şüÿÿÿÿ
+l	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Õ—´Şüÿÿÿÿ
+b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ÁãÍ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(íí¶á
