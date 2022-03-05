@@ -2,7 +2,7 @@ package com.jacky.algorithm.高频面试题;
 
 /**
  * <p>
- * 删除倒数第二个节点
+ * 删除倒数第n个节点
  * </p>
  *
  * @author: HuangJiaJie
@@ -10,9 +10,12 @@ package com.jacky.algorithm.高频面试题;
  **/
 public class Problem_0019_RemoveNthNodeFromEndofList {
 
-	public static class ListNode {
-		public int val;
-		public ListNode next;
+	public class ListNode {
+		int val;
+		ListNode next;
+		ListNode() {}
+		ListNode(int val) { this.val = val; }
+		ListNode(int val, ListNode next) { this.val = val; this.next = next; }
 	}
 
 	/**
@@ -47,6 +50,28 @@ public class Problem_0019_RemoveNthNodeFromEndofList {
 		}
 		pre.next = pre.next.next;
 		return head;
+	}
+
+	/**
+	 *
+	 * @param head
+	 * @param n
+	 * @return
+	 */
+	public ListNode removeNthFromEnd2(ListNode head, int n) {
+		ListNode dummy = new ListNode(0, head);
+		ListNode first = head;
+		ListNode second = dummy;
+		for (int i = 0; i < n; ++i) {
+			first = first.next;
+		}
+		while (first != null) {
+			first = first.next;
+			second = second.next;
+		}
+		second.next = second.next.next;
+		ListNode ans = dummy.next;
+		return ans;
 	}
 
 }

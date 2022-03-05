@@ -54,23 +54,25 @@ public class Problem_0078_Subsets {
 
 
 	class Solution {
-		List<Integer> t = new ArrayList<Integer>();
-		List<List<Integer>> ans = new ArrayList<List<Integer>>();
-
+		List<List<Integer>> ans = new ArrayList<>();
+		LinkedList<Integer> path = new LinkedList<>();
 		public List<List<Integer>> subsets(int[] nums) {
-			dfs(0, nums);
+			dfs(nums,0);
 			return ans;
 		}
 
-		public void dfs(int cur, int[] nums) {
-			if (cur == nums.length) {
-				ans.add(new ArrayList<Integer>(t));
-				return;
+		private void dfs(int[] nums,int index){
+			if(index == nums.length){
+				ans.add(new ArrayList<>(path));
+			}else{
+				// not select
+				dfs(nums,index+1);
+				// select
+				path.addLast(nums[index]);
+				dfs(nums,index+1);
+				// recover
+				path.removeLast();
 			}
-			t.add(nums[cur]);
-			dfs(cur + 1, nums);
-			t.remove(t.size() - 1);
-			dfs(cur + 1, nums);
 		}
 	}
 

@@ -27,6 +27,7 @@ public class Problem_0152_MaximumProductSubarray {
 		int max = nums[0];
 		for (int i = 1; i < nums.length; i++) {
 			// 每一步都是要 分析3个条件的最值问题
+			// 当前的最值问题很肯定是 当前的值 * 最(大，小)值 和 最(大小值)比较
 			int curmin = Math.min(nums[i], Math.min(min * nums[i], max * nums[i]));
 			int curmax = Math.max(nums[i], Math.max(min * nums[i], max * nums[i]));
 			// 变量滚动

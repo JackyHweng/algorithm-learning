@@ -20,6 +20,31 @@ package com.jacky.algorithm.基础班.排序算法.快排;
  **/
 public class Code06_PartitionAndQuickSort {
 
+
+	/**
+	 * 随机快排
+	 * @param arr
+	 */
+	public static void quickSort3(int[] arr) {
+		if (arr == null || arr.length < 2) {
+			return;
+		}
+		process3(arr, 0, arr.length - 1);
+	}
+
+	public static void process3(int[] arr, int L, int R) {
+		if (L >= R) {
+			return;
+		}
+		// 随机快排, 随机选择一个数和R交换，然后走 partition
+		swap(arr, L + (int) (Math.random() * (R - L + 1)), R);
+		// 荷兰国旗的技巧, 返回等于区域的 起点和终点
+		int[] equalArea = netherlandsFlag(arr, L, R);
+		process3(arr, L, equalArea[0] - 1);
+		process3(arr, equalArea[1] + 1, R);
+	}
+
+
 	public static void swap(int[] arr, int i, int j) {
 		int tmp = arr[i];
 		arr[i] = arr[j];
@@ -120,24 +145,7 @@ public class Code06_PartitionAndQuickSort {
 	
 	
 	
-	public static void quickSort3(int[] arr) {
-		if (arr == null || arr.length < 2) {
-			return;
-		}
-		process3(arr, 0, arr.length - 1);
-	}
 
-	public static void process3(int[] arr, int L, int R) {
-		if (L >= R) {
-			return;
-		}
-		// 随机快排, 随机选择一个数和R交换，然后走 partition
-		swap(arr, L + (int) (Math.random() * (R - L + 1)), R);
-		// 荷兰国旗的技巧, 返回等于区域的 起点和终点
-		int[] equalArea = netherlandsFlag(arr, L, R);
-		process3(arr, L, equalArea[0] - 1);
-		process3(arr, equalArea[1] + 1, R);
-	}
 
 	// for test
 	public static int[] generateRandomArray(int maxSize, int maxValue) {

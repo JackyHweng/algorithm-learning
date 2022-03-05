@@ -1,5 +1,7 @@
 package com.jacky.algorithm.高频面试题;
 
+import java.util.HashMap;
+
 /**
  * <p>
  * 子串，子序列经典解法： 假设以i位置结尾的情况下答案是什么, 求所有可能的结尾
@@ -45,6 +47,30 @@ public class Problem_0003_LongestSubstringWithoutRepeatingCharacters {
 			map[str[i]] = i;
 		}
 		return len;
+	}
+
+
+	/**
+	 * 滑动窗口版本
+	 * @param s
+	 * @return
+	 */
+	public int lengthOfLongestSubstring2(String s) {
+		int[] map = new int[256];
+		for(int i = 0 ; i < 256; i++){
+			map[i] = -1;
+		}
+
+		int left = -1;
+		int ans = 0;
+		for(int i = 0 ; i < s.length(); i++){
+			// 当前字符最近出现位置
+			left = Math.max(map[s.charAt(i)],left);
+			map[s.charAt(i)] = i;
+			ans = Math.max(ans,i - left);
+		}
+
+		return ans;
 	}
 
 }

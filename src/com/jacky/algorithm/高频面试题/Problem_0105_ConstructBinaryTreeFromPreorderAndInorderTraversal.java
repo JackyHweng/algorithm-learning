@@ -2,6 +2,38 @@ package com.jacky.algorithm.高频面试题;
 
 import java.util.HashMap;
 
+/**
+ * <p>
+ * TODO
+ * </p>
+ *
+ *
+ * preorder = [3,9,20,15,7]
+ * inorder = [9,3,15,20,7]
+ * 首先根据 preorder 找到根节点是 3
+ *
+ * 然后根据根节点将 inorder 分成左子树和右子树
+ * 左子树
+ * inorder [9]
+ *
+ * 右子树
+ * inorder [15,20,7]
+ *
+ * 把相应的前序遍历的数组也加进来
+ * 左子树
+ * preorder[9]
+ * inorder [9]
+ *
+ * 右子树
+ * preorder[20 15 7]
+ * inorder [15,20,7]
+ *
+ * 现在我们只需要构造左子树和右子树即可，成功把大问题化成了小问题
+ * 然后重复上边的步骤继续划分，直到 preorder 和 inorder 都为空，返回 null 即可
+ *
+ * @author: HuangJiaJie
+ * @create: 2022/2/20
+ **/
 public class Problem_0105_ConstructBinaryTreeFromPreorderAndInorderTraversal {
 
 	public static class TreeNode {

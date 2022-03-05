@@ -1,0 +1,12 @@
+
+m
+java:S3776B"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(·é¡Éıÿÿÿÿ
+D
+java:S2140q")Use "java.util.Random.nextInt()" instead.(’ğŞ½üÿÿÿÿ
+?
+java:S2140t")Use "java.util.Random.nextInt()" instead.(é×›Ø
+D
+java:S2140u")Use "java.util.Random.nextInt()" instead.(”Æ£±ùÿÿÿÿ
+O	java:S106†"9Replace this use of System.out or System.err by a logger.(¢îãş
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(‚˜¡ùÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Èñè³ûÿÿÿÿ

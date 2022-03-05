@@ -4,7 +4,39 @@ import java.util.*;
 
 public class Problem_0039_CombinationSum {
 
-	/*
+
+
+	public List<List<Integer>> combinationSum(int[] candidates, int target) {
+		List<List<Integer>> ans = new ArrayList<>();
+//		List<Integer> path = new ArrayList<>();
+		Deque<Integer> path = new LinkedList<>();
+		process(candidates, target, 0 , path ,ans);
+		return ans;
+	}
+
+	public void process(int[] nums, int target , int index, Deque<Integer> path , List<List<Integer>> ans) {
+		if (index == nums.length) {
+			return;
+		}
+		if (target == 0) {
+			ans.add(new ArrayList<>(path));
+			return;
+		}
+		// not choose
+		process(nums, target, index + 1, path, ans);
+		if (target - nums[index] >= 0) {
+			// choose
+//			path.add(nums[index]);
+			path.addLast(nums[index]);
+			process(nums, target - nums[index], index, path, ans);
+			// recover
+//			path.remove(path.size() - 1);
+			path.removeLast();
+		}
+	}
+
+
+		/*
 	 * 两个方法都能通过， 测试时想用哪个方法，就把函数名改成combinationSum
 	 */
 

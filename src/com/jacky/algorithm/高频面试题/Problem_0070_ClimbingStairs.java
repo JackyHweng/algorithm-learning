@@ -2,6 +2,22 @@ package com.jacky.algorithm.高频面试题;
 
 public class Problem_0070_ClimbingStairs {
 
+	/**
+	 * 0 台阶 也是有一种爬法
+	 * @param n
+	 * @return
+	 */
+	public int climbStairs4(int n) {
+
+		int[] dp = new int[n +1];
+		dp[0] = 1;
+		dp[1] = 1;
+		for(int i = 2; i <= n ; i++){
+			dp[i] = dp[i -1] + dp[i -2];
+		}
+		return dp[n];
+	}
+
 
 	public static int climbStairs2(int n){
 	    if(n == 1){

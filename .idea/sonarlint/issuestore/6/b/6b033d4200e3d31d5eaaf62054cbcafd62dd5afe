@@ -1,11 +1,11 @@
 
-F
-java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ
-H
-java:S1128"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ
-I
-java:S1128".Remove this unused import 'java.util.HashMap'.(™˜”€ùÿÿÿÿ
-F
-java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ
-g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ë›¹”ÿÿÿÿÿ
-o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(íí¶á
+t
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 25 to the 15 allowed.(Á˜ÜÈÿÿÿÿÿ8¸îÌ…ð/
+A
+java:S1659K"Declare "n" on a separate line.(½ªÌ•ÿÿÿÿÿ8ÔîÌ…ð/
+v
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(è¿ºš8ßîÌ…ð/
+{
+java:S2293U"YReplace the type specification in this constructor call with the diamond operator ("<>").(ž‰ü‹øÿÿÿÿ8ßîÌ…ð/
+n	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ë›¹”ÿÿÿÿÿ8àîÌ…ð/
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(íí¶á8âîÌ…ð/

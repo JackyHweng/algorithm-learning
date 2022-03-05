@@ -1,0 +1,51 @@
+
+<
+java:S1168!"&Return an empty array instead of null.(¥¹ï
+<
+java:S1168?"&Return an empty array instead of null.(¥¹ï
+E
+java:S2140§")Use "java.util.Random.nextInt()" instead.(‡Á±£øÿÿÿÿ
+T	java:S106Ä"9Replace this use of System.out or System.err by a logger.(¸íÆ¤ûÿÿÿÿ
+O	java:S106Ğ"9Replace this use of System.out or System.err by a logger.(„½˜Ù
+O	java:S106Ó"9Replace this use of System.out or System.err by a logger.(ßèÜ›
+p
+java:S2293œ"YReplace the type specification in this constructor call with the diamond operator ("<>").(ö¶óˆ
+}
+java:S1319L"bThe type of "inMap" should be an interface such as "Map" rather than the implementation "HashMap".(ëÎÌºıÿÿÿÿ
+y
+java:S1319g"cThe type of "arr" should be an interface such as "List" rather than the implementation "ArrayList".(’Ã‰³
+~
+java:S1319|"cThe type of "arr" should be an interface such as "List" rather than the implementation "ArrayList".(„ôÖùÿÿÿÿ
+z
+java:S1319‘"cThe type of "arr" should be an interface such as "List" rather than the implementation "ArrayList".(ĞÕË
+|
+java:S1319¡"eThe type of "hasValue" should be an interface such as "Set" rather than the implementation "HashSet".(µˆâ‹
+V	java:S107)"<Method has 9 parameters, which is greater than 7 authorized.(ÖÉŸÿÿÿÿÿ
+W	java:S107K"=Method has 10 parameters, which is greater than 7 authorized.(„Ä¦Ëşÿÿÿÿ
+f	java:S117#"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ó°‹­
+k	java:S117)"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÖÉŸÿÿÿÿÿ
+k	java:S117)"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÖÉŸÿÿÿÿÿ
+k	java:S117)"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÖÉŸÿÿÿÿÿ
+k	java:S117)"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÖÉŸÿÿÿÿÿ
+k	java:S117)"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÖÉŸÿÿÿÿÿ
+k	java:S117)"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÖÉŸÿÿÿÿÿ
+f	java:S117A"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ó°‹­
+k	java:S117K"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(„Ä¦Ëşÿÿÿÿ
+k	java:S117K"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(„Ä¦Ëşÿÿÿÿ
+k	java:S117K"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(„Ä¦Ëşÿÿÿÿ
+k	java:S117K"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(„Ä¦Ëşÿÿÿÿ
+k	java:S117K"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(„Ä¦Ëşÿÿÿÿ
+k	java:S117K"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(„Ä¦Ëşÿÿÿÿ
+g	java:S117›"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(´ØÿĞ
+g	java:S117¡"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(µˆâ‹
+g	java:S117Å"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(³³Ê
+l
+java:S1104"QMake value a static final constant or non-public and provide accessors if needed.(‚¯¥ùÿÿÿÿ
+f
+java:S1104"PMake left a static final constant or non-public and provide accessors if needed.(ó÷ÔÄ
+g
+java:S1104"QMake right a static final constant or non-public and provide accessors if needed.(Ö¢è¥
+b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ª¦Ùù
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÊØ·ï
+S
+java:S2589µ"7Remove this expression which always evaluates to "true"(Äƒ“ÿÿÿÿÿ

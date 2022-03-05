@@ -1,0 +1,11 @@
+
+N	java:S106@"9Replace this use of System.out or System.err by a logger.(•ó¥±
+k	java:S117#"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Æù£İúÿÿÿÿ
+l
+java:S1104"QMake value a static final constant or non-public and provide accessors if needed.(‚¯¥ùÿÿÿÿ
+f
+java:S1104"PMake left a static final constant or non-public and provide accessors if needed.(ó÷ÔÄ
+g
+java:S1104"QMake right a static final constant or non-public and provide accessors if needed.(Ö¢è¥
+b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Ù„¯
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ë²ÙÚûÿÿÿÿ

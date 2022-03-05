@@ -2,7 +2,7 @@ package com.jacky.algorithm.高频面试题;
 
 /**
  * <p>
- *     todo
+ *     String.index();
  * Manacher 解决最长回文字符串
  * </p>
  *

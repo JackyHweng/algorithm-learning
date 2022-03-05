@@ -8,6 +8,10 @@ package com.jacky.algorithm.训练营练习题.第三期.class03;
  * 一共有多少种零食放法？(总体积为0也算一种放法)。
  * </p>
  *
+ * 流程：
+ *
+ * 1.
+ *
  * @author: HuangJiaJie
  * @create: 2022/1/31
  **/
@@ -18,7 +22,7 @@ public class Code02_SnacksWays {
 		return process(arr, 0, w);
 	}
 
-	// 从左往右的经典模型
+	// 从左往右的尝试经典模型
 	// 还剩的容量是rest，arr[index...]自由选择，
 	// 返回选择方案
 	// index ： 0～N

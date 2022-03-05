@@ -11,10 +11,11 @@ package com.jacky.algorithm.高频面试题;
 public class Problem_0215_KthLargestElementInAnArray {
 
 	public int findKthLargest(int[] nums, int k) {
-		return minKth(nums, nums.length + 1 - k);
+		return minKth(nums, nums.length - k);
 	}
 
 	public static int minKth(int[] arr, int k) {
+
 		return process(arr, 0, arr.length - 1, k - 1);
 	}
 

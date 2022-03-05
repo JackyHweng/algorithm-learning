@@ -9,11 +9,28 @@ package com.jacky.algorithm.训练营练习题.第三期.class02;
  *
  * </p>
  *
+ *
+ * 这道题和下标没有关系 !!
+ *
+ * 二元组流程：
+ * 1.双指针
+ * 2. arr[l] + arr[r] > aim , r--
+ * 3. arr[l] + arr[r] < aim , l++
+ * 4. arr[l] + arr[r] = aim , arr[l-1] != arr[l]  才收集答案(其实就是剪枝), l++ 或者 r-- 都可以
+ *
+ * 三元组流程：
+ * 1. 查询i位置的值，查询 和为 aim - i 的二元组的问题
+ *
  * @author: HuangJiaJie
  * @create: 2022/1/31
  **/
 public class Code06_PrintUniquePairAndTriad {
 
+	/**
+	 *  目标和 不同的二元组问题
+	 * @param arr
+	 * @param k
+	 */
 	public static void printUniquePair(int[] arr, int k) {
 		if (arr == null || arr.length < 2) {
 			return;
@@ -35,6 +52,11 @@ public class Code06_PrintUniquePairAndTriad {
 		}
 	}
 
+	/**
+	 *  目标和 不同的三元组问题
+	 * @param arr
+	 * @param k
+	 */
 	public static void printUniqueTriad(int[] arr, int k) {
 		if (arr == null || arr.length < 3) {
 			return;

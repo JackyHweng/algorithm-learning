@@ -1,0 +1,13 @@
+
+N	java:S106E"9Replace this use of System.out or System.err by a logger.(ÿ«¥è
+M	java:S106`"9Replace this use of System.out or System.err by a logger.(ƒÚáB
+…
+java:S1319"jThe type of "nextMap" should be an interface such as "SortedMap" rather than the implementation "TreeMap".( Áìúÿÿÿÿ
+2
+java:S1643O"Use a StringBuilder instead.(ê©µî
+e
+java:S1104"PMake path a static final constant or non-public and provide accessors if needed.(‡ÛÛ?
+n
+java:S1104"SMake nextMap a static final constant or non-public and provide accessors if needed.( Áìúÿÿÿÿ
+b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ë¡âô
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÊØ·ï

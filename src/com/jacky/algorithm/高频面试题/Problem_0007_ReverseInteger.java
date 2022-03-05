@@ -31,6 +31,20 @@ public class Problem_0007_ReverseInteger {
 		return neg ? res : Math.abs(res);
 	}
 
+
+	public int reverse2(int x) {
+		int rev = 0;
+		while (x != 0) {
+			if (rev < Integer.MIN_VALUE / 10 || rev > Integer.MAX_VALUE / 10) {
+				return 0;
+			}
+			int digit = x % 10;
+			x /= 10;
+			rev = rev * 10 + digit;
+		}
+		return rev;
+	}
+
 	public static void main(String[] args) {
 //		-2147483648
 		System.out.println(Integer.MIN_VALUE);

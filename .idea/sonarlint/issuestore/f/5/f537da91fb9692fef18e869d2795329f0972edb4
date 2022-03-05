@@ -1,0 +1,38 @@
+
+g
+java:S1149ª"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(Óñ·°
+V	java:S125]"<This block of commented-out lines of code should be removed.(¡Óğ¡üÿÿÿÿ
+O	java:S106é"9Replace this use of System.out or System.err by a logger.(Ÿ¯È
+T	java:S106ê"9Replace this use of System.out or System.err by a logger.(É…äúıÿÿÿÿ
+p
+java:S2293ª"YReplace the type specification in this constructor call with the diamond operator ("<>").(Óñ·°
+l
+java:S1104"QMake value a static final constant or non-public and provide accessors if needed.(‚¯¥ùÿÿÿÿ
+f
+java:S1104"PMake left a static final constant or non-public and provide accessors if needed.(ó÷ÔÄ
+g
+java:S1104"QMake right a static final constant or non-public and provide accessors if needed.(Ö¢è¥
+m
+java:S1104"RMake maxSum a static final constant or non-public and provide accessors if needed.(ÿìöÿÿÿÿÿ
+z
+java:S1104I"dMake headWalkToLeafMaxPathSum a static final constant or non-public and provide accessors if needed.(ù½Í÷
+q
+java:S1104n"VMake maxBSTSize a static final constant or non-public and provide accessors if needed.(› ñîüÿÿÿÿ
+i
+java:S1104o"TMake isAllBST a static final constant or non-public and provide accessors if needed.(ÄİQ
+j
+java:S1104p"OMake min a static final constant or non-public and provide accessors if needed.(Ü—ùßÿÿÿÿÿ
+e
+java:S1104q"OMake max a static final constant or non-public and provide accessors if needed.(¢€ê×
+u
+java:S1104Å"YMake maxPathSumAll a static final constant or non-public and provide accessors if needed.(¬à–àÿÿÿÿÿ
+u
+java:S1104Æ"^Make maxPathSumFromHead a static final constant or non-public and provide accessors if needed.(ï»Õ­
+k
+java:S1104Ç"OMake max a static final constant or non-public and provide accessors if needed.(ûş¦ƒûÿÿÿÿ
+G
+java:S1444",Make this "public static maxSum" field final(ÿìöÿÿÿÿÿ
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(¨ËĞßşÿÿÿÿ
+n	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¤¿¿
+V
+java:S2259Q"@A "NullPointerException" could be thrown; "p()" can return null.(áôîâ

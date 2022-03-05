@@ -1,9 +1,0 @@
-
-P
-java:S1118":Add a private constructor to hide the implicit public one.(º§Ò’
-T
-java:S1135"2Complete the task associated to this TODO comment.(öË…æùÿÿÿÿ8ëÖí—â/
-Q	java:S125'"<This block of commented-out lines of code should be removed.(óñÚ
-f	java:S117I"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(÷‡ØÌ
-b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(º§Ò’
-o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(íí¶á

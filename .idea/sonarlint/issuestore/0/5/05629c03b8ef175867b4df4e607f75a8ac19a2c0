@@ -1,0 +1,18 @@
+
+m
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 20 to the 15 allowed.(Ì‘È¥ûÿÿÿÿ
+<
+java:S1168<"&Return an empty array instead of null.(¥¹ï
+D
+java:S2140@")Use "java.util.Random.nextInt()" instead.(žôÕêýÿÿÿÿ
+N	java:S106I"9Replace this use of System.out or System.err by a logger.(º¼É°
+S	java:S106K"9Replace this use of System.out or System.err by a logger.(ªÓ¼áþÿÿÿÿ
+N	java:S106S"9Replace this use of System.out or System.err by a logger.(ÈåºŽ
+n
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÀŠ…8
+o
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÍþÙ›
+f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(€‚Çð
+f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(”›¶Î
+b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(—ÿÃ¤
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(»×·Îøÿÿÿÿ

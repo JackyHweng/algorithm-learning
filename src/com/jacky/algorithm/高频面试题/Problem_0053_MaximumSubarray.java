@@ -50,11 +50,21 @@ public class Problem_0053_MaximumSubarray {
 		for (int i = 0; i < nums.length; i++) {
 			cur += nums[i];
 			max = Math.max(max, cur);
+			// 这里是什么意思？
 			cur = cur < 0 ? 0 : cur;
 		}
 
 
 		return max;
+	}
+
+	public int maxSubArray4(int[] nums) {
+		int pre = 0, maxAns = nums[0];
+		for (int x : nums) {
+			pre = Math.max(pre + x, x);
+			maxAns = Math.max(maxAns, pre);
+		}
+		return maxAns;
 	}
 
 }

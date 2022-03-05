@@ -9,6 +9,14 @@ import java.util.PriorityQueue;
  * 求整块地形能装下多少水。
  * </p>
  *
+ * 大流程：
+ * 1. 准备一个小根堆
+ * 2. 将边缘的值加入到小跟堆中
+ * 3. 弹出小跟堆的值，更新最大值（其实就是确定当前湖的短板,出海口）, 然后结算当前点的水量
+ * 4. 再以当前位置的上下左右没有进入过小跟堆的点进入小跟堆
+ *
+ * https://leetcode-cn.com/problems/trapping-rain-water-ii/
+ *
  * @author: HuangJiaJie
  * @create: 2022/1/31
  **/
@@ -47,8 +55,8 @@ public class Code05_TrappingRainWaterII {
 		boolean[][] isEnter = new boolean[N][M];
 		// 小根堆
 		PriorityQueue<Node> heap = new PriorityQueue<>(new NodeComparator());
-		
-		
+
+
 		for (int col = 0; col < M - 1; col++) {
 			isEnter[0][col] = true;
 			heap.add(new Node(heightMap[0][col], 0, col));
@@ -71,6 +79,7 @@ public class Code05_TrappingRainWaterII {
 		int max = 0; // 每个node在弹出的时候，如果value更大，更新max，否则max的值维持不变
 		while (!heap.isEmpty()) {
 			Node cur = heap.poll();
+			// 是否更新，更新就是换湖
 			max = Math.max(max, cur.value);
 			int r = cur.row;
 			int c = cur.col;
@@ -97,5 +106,8 @@ public class Code05_TrappingRainWaterII {
 		}
 		return water;
 	}
+
+
+	// Dijkstra
 
 }

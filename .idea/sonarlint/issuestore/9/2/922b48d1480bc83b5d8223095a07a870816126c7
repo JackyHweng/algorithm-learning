@@ -1,0 +1,26 @@
+
+k
+java:S1149""PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(û›şöıÿÿÿÿ
+k
+java:S11498"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(úíçÏøÿÿÿÿ
+h
+java:S37765"RRefactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.(Ğ–€Ğ
+?
+java:S2140[")Use "java.util.Random.nextInt()" instead.(µúëÚ
+?
+java:S2140`")Use "java.util.Random.nextInt()" instead.(§ß¿Á
+?
+java:S2140j")Use "java.util.Random.nextInt()" instead.(µúëÚ
+e
+java:S1764l"JCorrect one of the identical sub-expressions on both sides of operator "-"(´Èÿıÿÿÿÿ
+D
+java:S2140l")Use "java.util.Random.nextInt()" instead.(´Èÿıÿÿÿÿ
+D
+java:S2140l")Use "java.util.Random.nextInt()" instead.(´Èÿıÿÿÿÿ
+O	java:S106"9Replace this use of System.out or System.err by a logger.(º¼É°
+T	java:S106 "9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ
+O	java:S106«"9Replace this use of System.out or System.err by a logger.(„½˜Ù
+O	java:S106°"9Replace this use of System.out or System.err by a logger.(„½˜Ù
+t	java:S135§"YReduce the total number of break and continue statements in this loop to use at most one.(²å¹ñüÿÿÿÿ
+b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(¢é‡½
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(»×·Îøÿÿÿÿ

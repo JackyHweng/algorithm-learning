@@ -21,9 +21,27 @@ public class Problem_0226_InvertBinaryTree {
 			return null;
 		}
 		TreeNode left = root.left;
-		root.left = invertTree(root.right);
+		TreeNode right = root.right;
+		root.left = invertTree(right);
 		root.right = invertTree(left);
 		return root;
 	}
 
+
+	/**
+	 * 这种好理解一点
+	 * @param root
+	 * @return
+	 */
+	public static TreeNode invertTree2(TreeNode root) {
+		if (root == null) {
+			return null;
+		}
+		TreeNode tmp = root.left;
+		root.left = root.right;
+		root.right = tmp;
+		invertTree(root.left);
+		invertTree(root.right);
+		return root;
+	}
 }

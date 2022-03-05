@@ -13,6 +13,62 @@ import java.util.List;
  **/
 public class Problem_0022_GenerateParentheses {
 
+	/**
+	 * 比较好理解的回溯
+	 * @param n
+	 * @return
+	 */
+	public List<String> generateParenthesis4(int n) {
+		List<String> ans = new ArrayList<>();
+		StringBuffer path = new StringBuffer();
+		process(0,0,n,path,ans);
+		return ans;
+	}
+
+	public void process(int open , int close, int n ,StringBuffer path ,List<String> ans){
+		if(path.length() == n * 2){
+			ans.add(path.toString());
+		}else{
+			if(open < n ){
+				// can choose (
+				path.append('(');
+				process(open + 1,close, n , path,ans);
+				// recover
+				path.deleteCharAt(path.length() -1);
+			}
+			if(close < open){
+				// can  choose )
+				path.append(')');
+				process(open,close+1, n , path,ans);
+				path.deleteCharAt(path.length() -1);
+			}
+		}
+	}
+
+
+	public List<String> generateParenthesis3(int n) {
+		char[] path = new char[n<<1];
+		List<String> ans = new ArrayList<>();
+		dfs(0,n, 0,path,ans);
+		return ans;
+	}
+
+	public void dfs(int index, int decide, int need , char[] path, List<String> ans){
+		if(index == path.length){
+			ans.add(String.valueOf(path));
+		}else{
+			if(decide > 0){
+				path[index] = '(';
+				dfs(index + 1, decide -1,need +1 ,path,ans);
+			}
+			if(need > 0){
+				path[index] = ')';
+				dfs(index +1 , decide,need -1, path,ans);
+			}
+		}
+	}
+
+
 	public static List<String> generateParenthesis(int n) {
 		// 沿途的决策
 		char[] path = new char[n << 1];
@@ -26,7 +82,7 @@ public class Problem_0022_GenerateParentheses {
 	// 0 1 2 3 4 5
 	// path[0...index-1]决定已经做完了
 	// index位置上，( )
-	// leftMinusRight 左括号做过的决策
+	// leftMinusRight 左括号做过的决策,后续需要与他匹配 ）
     // leftRest 多少个左括号可以决定的
 	public static void process(char[] path, int index, int leftMinusRight, int leftRest, List<String> ans) {
 		if (index == path.length) {

@@ -13,7 +13,11 @@ import java.util.Comparator;
  * (1,1)(1,2)(1,3)(2,1)(2,2)(2,3)(3,1)(3,2)(3,3)
  *
  * 给定一个数组arr，和整数k，返回第k小的数值对。
+ *
  * </p>
+ *
+ * 流程:
+ *
  *
  * @author: HuangJiaJie
  * @create: 2022/1/31

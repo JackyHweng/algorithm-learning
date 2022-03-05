@@ -1,0 +1,33 @@
+
+?
+java:S2140m")Use "java.util.Random.nextInt()" instead.(º¡¿‰
+?
+java:S2140r")Use "java.util.Random.nextInt()" instead.(ßšš¶
+?
+java:S2140u")Use "java.util.Random.nextInt()" instead.(é‘å›
+?
+java:S2140~")Use "java.util.Random.nextInt()" instead.(º¡¿‰
+E
+java:S2140ƒ")Use "java.util.Random.nextInt()" instead.(´¡ˆÿÿÿÿÿ
+E
+java:S2140†")Use "java.util.Random.nextInt()" instead.(…¤şÍşÿÿÿÿ
+n
+java:S3776œ"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(€ŠÖ“ıÿÿÿÿ
+O	java:S106É"9Replace this use of System.out or System.err by a logger.(¢îãş
+O	java:S106Ğ"9Replace this use of System.out or System.err by a logger.(¢îãş
+T	java:S106Ô"9Replace this use of System.out or System.err by a logger.(¤ÂÓÊÿÿÿÿÿ
+t	java:S135Ä"YReduce the total number of break and continue statements in this loop to use at most one.(Ë²Ûüÿÿÿÿ
+f	java:S117O"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÉÉ·ß
+f	java:S117a"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÉÉ·ß
+l
+java:S1104"QMake value a static final constant or non-public and provide accessors if needed.(‚¯¥ùÿÿÿÿ
+k
+java:S1104"PMake next a static final constant or non-public and provide accessors if needed.(±±èÃøÿÿÿÿ
+l
+java:S1104"QMake value a static final constant or non-public and provide accessors if needed.(‚¯¥ùÿÿÿÿ
+f
+java:S1104"PMake last a static final constant or non-public and provide accessors if needed.(ÔôŸ
+k
+java:S1104"PMake next a static final constant or non-public and provide accessors if needed.(‹£Ï¸ùÿÿÿÿ
+b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(¡œ´ª
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ëü˜“üÿÿÿÿ

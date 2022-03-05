@@ -1,5 +1,6 @@
 package com.jacky.algorithm.训练营练习题.第三期.class02;
 
+
 /**
  * <p>
  * 给定一个数组arr，已知其中所有的值都是非负的，将这个数组看作一个容器， 请返回容器能装多少水
@@ -7,7 +8,7 @@ package com.jacky.algorithm.训练营练习题.第三期.class02;
  * 再比如，arr = {4，5，1，3，2}，该容器可以装下2格水
  * </p>
  *
- *
+ * https://leetcode-cn.com/problems/volume-of-histogram-lcci/
  * @author: HuangJiaJie
  * @create: 2022/1/31
  **/
@@ -60,6 +61,11 @@ public class Code04_TrappingRainWater {
 		return water;
 	}
 
+	/**
+	 * 辅助数组的方式
+	 * @param arr
+	 * @return
+	 */
 	public static int water3(int[] arr) {
 		if (arr == null || arr.length < 2) {
 			return 0;
@@ -79,16 +85,27 @@ public class Code04_TrappingRainWater {
 		return water;
 	}
 
+	/**
+	 * 首先将问题拆分为 i位置的水量，那么i位置的水量是和左边的最大值和右边的最大值有关的
+	 * iwater = Math.max(Math.min(leftMax, rightMax) - arr[i], 0);
+	 * 左右的边界是不可能是有水量的
+	 *
+	 * @param arr
+	 * @return
+	 */
 	public static int water4(int[] arr) {
 		if (arr == null || arr.length < 2) {
 			return 0;
 		}
 		int N = arr.length;
+		// 为什么是从0开始，因为最左的位置是不可能有水量的
 		int L = 1;
 		int leftMax = arr[0];
+		// 为什么是从N -2 开始，因为最右的位置是不可能有水量的
 		int R = N - 2;
 		int rightMax = arr[N - 1];
 		int water = 0;
+		// 利用双指针开始通知水量
 		while (L <= R) {
 			if (leftMax <= rightMax) {
 				water += Math.max(0, leftMax - arr[L]);

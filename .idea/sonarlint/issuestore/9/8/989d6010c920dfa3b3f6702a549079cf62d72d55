@@ -1,0 +1,28 @@
+
+n
+java:S30122"YUse "Arrays.copyOf", "Arrays.asList", "Collections.addAll" or "System.arraycopy" instead.(ë»ª	
+D
+java:S2140@")Use "java.util.Random.nextInt()" instead.(ÁØôÇøÿÿÿÿ
+E
+java:S2140Ÿ")Use "java.util.Random.nextInt()" instead.(‡Îñ€üÿÿÿÿ
+@
+java:S2140¡")Use "java.util.Random.nextInt()" instead.(ôüÃ¹
+T	java:S106ª"9Replace this use of System.out or System.err by a logger.(¸íÆ¤ûÿÿÿÿ
+E
+java:S2140­")Use "java.util.Random.nextInt()" instead.(€ú²ÿùÿÿÿÿ
+O	java:S106²"9Replace this use of System.out or System.err by a logger.(„½˜Ù
+O	java:S106µ"9Replace this use of System.out or System.err by a logger.(ìÇÔ¶
+k	java:S117;"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ºÍÏıÿÿÿÿ
+k	java:S117;"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ºÍÏıÿÿÿÿ
+f	java:S117L"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢—¶š
+f	java:S117L"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢—¶š
+k	java:S117i"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(±Ø‹’øÿÿÿÿ
+k	java:S117i"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(±Ø‹’øÿÿÿÿ
+l	java:S117€"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¤½ àÿÿÿÿÿ
+l	java:S117€"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¤½ àÿÿÿÿÿ
+g	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢ëì´
+g	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢ëì´
+l	java:S117•"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Õøäÿÿÿÿÿ
+l	java:S117•"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Õøäÿÿÿÿÿ
+a	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Å™æF
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(×Îõ—øÿÿÿÿ

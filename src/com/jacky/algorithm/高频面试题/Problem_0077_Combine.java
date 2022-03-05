@@ -40,6 +40,7 @@ public class Problem_0077_Combine {
         }
 
         // 只有这里 i <= n - (k - path.size()) + 1 与参考代码 1 不同
+        // temp 长度加上区间 [cur, n] 的长度小于 k，不可能构造出长度为 k 的 temp
         // 剪枝
         for (int i = index; i <= n - (k - path.size()) + 1; i++) {
             path.addLast(i);

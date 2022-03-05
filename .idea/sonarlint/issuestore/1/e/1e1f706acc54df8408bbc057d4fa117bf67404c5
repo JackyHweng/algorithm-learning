@@ -1,7 +1,0 @@
-
-U
-java:S1118":Add a private constructor to hide the implicit public one.(Ê›ì®ùÿÿÿÿ
-g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Ê›ì®ùÿÿÿÿ
-o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(íí¶á
-c
-java:S3824"HReplace this "Map.containsKey()" with a call to "Map.computeIfAbsent()".(Ð·Îàúÿÿÿÿ

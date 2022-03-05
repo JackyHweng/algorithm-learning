@@ -1,5 +1,7 @@
 package com.jacky.algorithm.高频面试题;
 
+import java.util.LinkedList;
+
 public class Problem_0104_MaximumDepthOfBinaryTree {
 
 	/*
@@ -16,6 +18,33 @@ public class Problem_0104_MaximumDepthOfBinaryTree {
 			return 0;
 		}
         return Math.max(maxDepth(root.left), maxDepth(root.right)) + 1;
+	}
+
+
+	public int maxDepth2(TreeNode root) {
+		if(root == null){
+			return 0;
+		}
+		int ans = 0;
+		LinkedList<TreeNode> queue = new LinkedList<>();
+
+		queue.addLast(root);
+		int size =0;
+		while(!queue.isEmpty()){
+			size = queue.size();
+			while(size > 0){
+				TreeNode node = queue.pollFirst();
+				if(node.left != null){
+					queue.addLast(node.left);
+				}
+				if(node.right != null){
+					queue.addLast(node.right);
+				}
+				size--;
+			}
+			ans+=1;
+		}
+		return ans;
 	}
 
 }

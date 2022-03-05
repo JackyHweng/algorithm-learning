@@ -1,0 +1,31 @@
+
+C
+java:S1172"(Remove this unused method parameter "n".(∆˚ååˇˇˇˇˇ
+J
+java:S2864"4Iterate over the "entrySet" instead of the "keySet".(ßµ ∑
+_
+java:S1764A"JCorrect one of the identical sub-expressions on both sides of operator "-"(ˇ¢ﬁ
+>
+java:S2140A")Use "java.util.Random.nextInt()" instead.(ˇ¢ﬁ
+>
+java:S2140A")Use "java.util.Random.nextInt()" instead.(ˇ¢ﬁ
+`
+java:S1764E"JCorrect one of the identical sub-expressions on both sides of operator "-"(ÙÍ∞Œ
+?
+java:S2140E")Use "java.util.Random.nextInt()" instead.(ÙÍ∞Œ
+?
+java:S2140E")Use "java.util.Random.nextInt()" instead.(ÙÍ∞Œ
+D
+java:S2140R")Use "java.util.Random.nextInt()" instead.(¬«Ùçˇˇˇˇˇ
+J
+java:S2864e"4Iterate over the "entrySet" instead of the "keySet".(ßµ ∑
+S	java:S106u"9Replace this use of System.out or System.err by a logger.(∏Ì∆§˚ˇˇˇˇ
+?
+java:S2140z")Use "java.util.Random.nextInt()" instead.(ÖÏﬂø
+?
+java:S2140{")Use "java.util.Random.nextInt()" instead.(Å£¬…
+>
+java:S2140}")Use "java.util.Random.nextInt()" instead.(·Âºr
+O	java:S106Ä"9Replace this use of System.out or System.err by a logger.(§Åíç
+O	java:S106Ö"9Replace this use of System.out or System.err by a logger.(ÑΩòŸ
+O	java:S106à"9Replace this use of System.out or System.err by a logger.(ﬂË‹õ

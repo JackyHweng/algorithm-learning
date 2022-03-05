@@ -1,0 +1,18 @@
+
+D
+java:S2140H")Use "java.util.Random.nextInt()" instead.(¢“î‡ùÿÿÿÿ
+D
+java:S2140J")Use "java.util.Random.nextInt()" instead.(Ç²—¶şÿÿÿÿ
+S	java:S106T"9Replace this use of System.out or System.err by a logger.(óŞâÅúÿÿÿÿ
+?
+java:S2140V")Use "java.util.Random.nextInt()" instead.(«ö²„
+N	java:S106\"9Replace this use of System.out or System.err by a logger.(¢îãş
+f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(İ•
+f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(³Ìô
+f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(€‚Çğ
+k	java:S117+"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ö¼èáÿÿÿÿÿ
+k	java:S117."QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ö‡…İûÿÿÿÿ
+k	java:S117:"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(º“›’øÿÿÿÿ
+f	java:S117V"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«ö²„
+b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Œ²‰
+n	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¤¿¿

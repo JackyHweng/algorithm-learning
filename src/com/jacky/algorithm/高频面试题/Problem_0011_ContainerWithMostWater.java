@@ -31,4 +31,15 @@ public class Problem_0011_ContainerWithMostWater {
 		return max;
 	}
 
+	public int maxArea2(int[] height) {
+		int l =  0, r = height.length - 1, res = 0;
+		while(l < r) {
+			res = height[l] < height[r] ?
+					Math.max(res, (r - l) * height[l++]):
+					Math.max(res, (r - l) * height[r--]);
+		}
+		return res;
+	}
+
+
 }

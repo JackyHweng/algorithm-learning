@@ -1,0 +1,22 @@
+
+N	java:S106Q"9Replace this use of System.out or System.err by a logger.(•È®À
+Q
+java:S1854V"6Remove this useless assignment to local variable "a2".(Ê»§ïşÿÿÿÿ
+B
+java:S1481V"'Remove this unused "a2" local variable.(Ê»§ïşÿÿÿÿ
+t
+java:S3012_"YUse "Arrays.copyOf", "Arrays.asList", "Collections.addAll" or "System.arraycopy" instead.(ı½©Éûÿÿÿÿ
+E
+java:S1066d"/Merge this if statement with the enclosing one.(ş° 
+e
+java:S1104"OMake val a static final constant or non-public and provide accessors if needed.(Ô¸úÏ
+f
+java:S1104"PMake left a static final constant or non-public and provide accessors if needed.(ŠËÌç
+l
+java:S1104"QMake right a static final constant or non-public and provide accessors if needed.(ë™Ùµøÿÿÿÿ
+i
+java:S1104%"NMake no a static final constant or non-public and provide accessors if needed.(ºÎıüÿÿÿÿ
+e
+java:S1104&"OMake yes a static final constant or non-public and provide accessors if needed.(­‹’è
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(¦Š“ôúÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(íí¶á

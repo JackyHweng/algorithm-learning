@@ -2,6 +2,14 @@ package com.jacky.algorithm.训练营练习题.第四期.class01;
 
 import java.util.TreeSet;
 
+/**
+ * <p>
+ * 前缀和数组
+ * </p>
+ *
+ * @author: HuangJiaJie
+ * @create: 2022/2/9
+ **/
 public class Code02_MaxSubArraySumLessOrEqualK {
 
 	// 请返回arr中，求个子数组的累加和，是<=K的，并且是最大的。

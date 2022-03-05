@@ -76,7 +76,8 @@ public class Code01_MergeSort {
 		}
 		// p1 越界
 		while (p2 <= R) {
-			help[i++] = arr[p2++];
+			help[i++] = arr[p2++]
+			;
 		}
 		// 将辅助数组的结果拷贝到 arr
 		for (i = 0; i < help.length; i++) {

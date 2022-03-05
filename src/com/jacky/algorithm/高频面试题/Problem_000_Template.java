@@ -1,31 +1,36 @@
 package com.jacky.algorithm.高频面试题;
 
-import java.util.*;
+import java.util.HashMap;
+import java.util.Map;
 
 public class Problem_000_Template {
 
-	class Solution {
+	static class Solution {
 
-		public String[] uncommonFromSentences(String s1, String s2){
-			List<String> ans = new ArrayList<>();
-			HashMap<String,Integer> f1 = new HashMap<>();
-			insert(s1, f1);
-			insert(s2, f1);
+		public int findCenter(int[][] edges){
+			HashMap<Integer,Integer> map = new HashMap<>();
 
-			f1.forEach((key,value) ->{
-				if(value == 1){
-					ans.add(key);
-				}
-			});
-
-			return ans.toArray(new String[0]);
-		}
-
-		private void insert(String s1, HashMap<String, Integer> f1) {
-			for (String s : s1.split(" ")) {
-				f1.put(s, f1.getOrDefault(s,0)  + 1);
+			for(int[] edge : edges){
+				map.put(edge[0],map.getOrDefault(edge[0],0)+1);
+				map.put(edge[1],map.getOrDefault(edge[1],0)+1);
 			}
+
+			int n = map.size();
+			for(Map.Entry<Integer,Integer> entry : map.entrySet()){
+				if(entry.getValue() == n -1){
+					return entry.getKey();
+				}
+			}
+
+			return 0;
 		}
 
+	}
+
+
+	public static void main(String[] args) {
+		int[][] data =  {{1,2},{2,3},{4,2}};
+		final int center = new Solution().findCenter(data);
+		System.out.println(center);
 	}
 }

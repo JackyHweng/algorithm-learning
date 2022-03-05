@@ -1,5 +1,14 @@
 package com.jacky.algorithm.高频面试题;
 
+/**
+ * <p>
+ * 荷兰国旗问题
+ *
+ * </p>
+ *
+ * @author: HuangJiaJie
+ * @create: c
+ **/
 public class Problem_0075_SortColors {
 	public static void sortColors(int[] nums) {
 		int less = -1;
