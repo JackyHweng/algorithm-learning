@@ -1,5 +1,14 @@
 package com.jacky.algorithm.高频面试题;
 
+/**
+ * 57leetcode高频题目全讲九
+ * <p>
+ * 当前数加1
+ * </p>
+ *
+ * @author: HuangJiaJie
+ * @create: 2022/3/6
+ **/
 public class Problem_0066_PlusOne {
 
 	public static int[] plusOne(int[] digits) {
@@ -11,6 +20,7 @@ public class Problem_0066_PlusOne {
 			}
 			digits[i] = 0;
 		}
+		// 如果全是9，那么必然会走到这里
 		int[] ans = new int[n + 1];
 		ans[0] = 1;
 		return ans;

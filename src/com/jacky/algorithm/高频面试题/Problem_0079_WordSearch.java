@@ -1,9 +1,8 @@
 package com.jacky.algorithm.高频面试题;
 
-import java.util.ArrayList;
-import java.util.List;
-
 /**
+ * 58leetcode高频题目全讲十
+ *
  * <p>
  * 给定一个m x n 二维字符网格board 和一个字符串单词word 。如果word 存在于网格中，返回 true ；否则，返回 false 。
  *
@@ -12,7 +11,7 @@ import java.util.List;
  *
  * </p>
  *
- * 回溯
+ * 1. 深度优先遍历 + 保存现场痕迹 问题
  *
  * @author: HuangJiaJie
  * @create: 2022/3/5
@@ -44,14 +43,14 @@ public class Problem_0079_WordSearch {
 		if (b[i][j] != w[k]) {
 			return false;
 		}
-		// pick up
+		// pick up, 回头路的问题，保存现场痕迹
 		char tmp = b[i][j];
 		b[i][j] = 0;
 		boolean ans =  process(b, i - 1, j, w, k + 1) 
 				|| process(b, i + 1, j, w, k + 1) 
 				|| process(b, i, j - 1, w, k + 1)
 				|| process(b, i, j + 1, w, k + 1);
-		// recover
+		// recover, 恢复现场
 		b[i][j] = tmp;
 		return ans;
 	}

@@ -1,5 +1,19 @@
 package com.jacky.algorithm.高频面试题;
 
+/**
+ *
+ * 58leetcode高频题目全讲十
+ * 91. 解码方法
+ * <p>
+ *
+ * </p>
+ *
+ *
+ * 1.从左往右的 尝试 模型
+ *
+ * @author: HuangJiaJie
+ * @create: 2022/3/6
+ **/
 public class Problem_0091_DecodeWays {
 
 	public static int numDecodings1(String s) {

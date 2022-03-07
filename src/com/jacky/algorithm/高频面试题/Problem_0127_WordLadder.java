@@ -8,8 +8,10 @@ import java.util.List;
 import java.util.Queue;
 
 /**
+ * 61leetcode高频题目全讲十三
  * <p>
  *
+ * 127. 单词接龙
  * </p>
  *
  * @author: HuangJiaJie
@@ -39,7 +41,6 @@ public class Problem_0127_WordLadder {
 					distanceMap.put(next, distance + 1);
 				}
 			}
-
 		}
 		return 0;
 	}

@@ -1,5 +1,14 @@
 package com.jacky.algorithm.高频面试题;
 
+/**
+ * 59leetcode高频题目全讲十一
+ * <p>
+ * 116. 填充每个节点的下一个右侧节点指针
+ * </p>
+ *
+ * @author: HuangJiaJie
+ * @create: 2022/3/7
+ **/
 // 利用morris遍历
 public class Problem_0114_FlattenBinaryTreeToLinkedList {
 

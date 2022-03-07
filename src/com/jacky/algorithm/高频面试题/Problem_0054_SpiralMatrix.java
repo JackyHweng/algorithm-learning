@@ -3,6 +3,15 @@ package com.jacky.algorithm.高频面试题;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * 55leetcode高频题目全讲七
+ * <p>
+ * 转圈打印
+ * </p>
+ *
+ * @author: HuangJiaJie
+ * @create: 2022/3/6
+ **/
 public class Problem_0054_SpiralMatrix {
 
     public static List<Integer> spiralOrder(int[][] matrix) {
@@ -21,15 +30,17 @@ public class Problem_0054_SpiralMatrix {
 	}
 
 	public static void addEdge(int[][] m, int a, int b, int c, int d, List<Integer> ans) {
+    	// 同一行
 		if (a == c) {
 			for (int i = b; i <= d; i++) {
 				ans.add(m[a][i]);
 			}
-		} else if (b == d) {
+		} else if (b == d) {   // 同一列
 			for (int i = a; i <= c; i++) {
 				ans.add(m[i][b]);
 			}
 		} else {
+			// 否则就是一个圈
 			int curC = b;
 			int curR = a;
 			while (curC != d) {

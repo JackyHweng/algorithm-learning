@@ -1,5 +1,14 @@
 package com.jacky.algorithm.高频面试题;
 
+/**
+ * 56leetcode高频题目全讲八
+ * <p>
+ *
+ * </p>
+ *
+ * @author: HuangJiaJie
+ * @create: 2022/3/6
+ **/
 public class Problem_0053_MaximumSubarray {
 
 	public static int maxSum(int[] nums) {
@@ -50,7 +59,7 @@ public class Problem_0053_MaximumSubarray {
 		for (int i = 0; i < nums.length; i++) {
 			cur += nums[i];
 			max = Math.max(max, cur);
-			// 这里是什么意思？
+			// 这里是 k ... i-1 上的累加和，如果小于0，说明之前的子数组是不会在答案中的
 			cur = cur < 0 ? 0 : cur;
 		}
 

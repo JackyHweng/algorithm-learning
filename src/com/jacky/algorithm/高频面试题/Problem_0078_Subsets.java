@@ -5,6 +5,9 @@ import java.util.LinkedList;
 import java.util.List;
 
 /**
+ *
+ * 58leetcode高频题目全讲十
+ * 本质就是生成所有子序列
  * <p>
  *
  * 递归的本质:

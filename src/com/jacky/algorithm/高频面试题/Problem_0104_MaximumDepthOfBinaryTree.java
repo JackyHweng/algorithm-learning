@@ -2,6 +2,16 @@ package com.jacky.algorithm.高频面试题;
 
 import java.util.LinkedList;
 
+/**
+ *
+ * 59leetcode高频题目全讲十一
+ * <p>
+ * 104. 二叉树的最大深度
+ * </p>
+ *
+ * @author: HuangJiaJie
+ * @create: 2022/3/6
+ **/
 public class Problem_0104_MaximumDepthOfBinaryTree {
 
 	/*

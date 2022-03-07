@@ -1,6 +1,42 @@
 package com.jacky.algorithm.高频面试题;
 
+/**
+ * 61leetcode高频题目全讲十三
+ * <p>
+ * 125. 验证回文串
+ * </p>
+ *
+ *
+ * @author: HuangJiaJie
+ * @create: 2022/3/7
+ **/
 public class Problem_0125_ValidPalindrome {
+
+	/**
+	 * 使用系统函数
+	 * @param s
+	 * @return
+	 */
+	public boolean isPalindrome2(String s) {
+		int n = s.length();
+		int left = 0, right = n - 1;
+		while (left < right) {
+			while (left < right && !Character.isLetterOrDigit(s.charAt(left))) {
+				++left;
+			}
+			while (left < right && !Character.isLetterOrDigit(s.charAt(right))) {
+				--right;
+			}
+			if (left < right) {
+				if (Character.toLowerCase(s.charAt(left)) != Character.toLowerCase(s.charAt(right))) {
+					return false;
+				}
+				++left;
+				--right;
+			}
+		}
+		return true;
+	}
 
 	public static boolean isPalindrome(String s) {
 		if (s == null || s.length() == 0) {

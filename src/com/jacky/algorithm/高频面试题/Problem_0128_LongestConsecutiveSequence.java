@@ -65,7 +65,7 @@ public class Problem_0128_LongestConsecutiveSequence {
 				int posLen = map.containsKey(num + 1) ? map.get(num + 1) : 0;
 				int all = preLen + posLen + 1;
 				// ?
-				map.put(num - preLen, all;
+				map.put(num - preLen, all);
 				map.put(num + posLen, all);
 				len = Math.max(len, all);
 			}

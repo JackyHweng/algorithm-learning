@@ -1,8 +1,20 @@
 package com.jacky.algorithm.高频面试题;
 
+/**
+ * 57leetcode高频题目全讲九
+ * <p>
+ *
+ * </p>
+ *
+ * 1. 这道题可以优化成O(logN)的解法。具体看斐波那契数列的递归
+ *
+ * @author: HuangJiaJie
+ * @create: 2022/3/6
+ **/
 public class Problem_0070_ClimbingStairs {
 
 	/**
+     * 最简单的做法
 	 * 0 台阶 也是有一种爬法
 	 * @param n
 	 * @return
@@ -19,6 +31,12 @@ public class Problem_0070_ClimbingStairs {
 	}
 
 
+	/**
+	 * 最简单的做法
+	 * 0 台阶 也是有一种爬法
+	 * @param n
+	 * @return
+	 */
 	public static int climbStairs2(int n){
 	    if(n == 1){
 	    	return 1;
@@ -33,6 +51,11 @@ public class Problem_0070_ClimbingStairs {
 		return dp[n];
 	}
 
+	/**
+	 * 空间压缩
+	 * @param n
+	 * @return
+	 */
 	public static int climbStairs3(int n){
 		if(n == 1){
 			return 1;

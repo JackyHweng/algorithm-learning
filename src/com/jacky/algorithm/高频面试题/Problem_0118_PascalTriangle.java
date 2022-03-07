@@ -3,6 +3,15 @@ package com.jacky.algorithm.高频面试题;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * 59leetcode高频题目全讲十一
+ * <p>
+ * 118. 杨辉三角
+ * </p>
+ *
+ * @author: HuangJiaJie
+ * @create: 2022/3/7
+ **/
 public class Problem_0118_PascalTriangle {
 
 	public static List<List<Integer>> generate(int numRows) {
