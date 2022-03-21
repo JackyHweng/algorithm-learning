@@ -1,15 +1,0 @@
-
-U
-java:S1118":Add a private constructor to hide the implicit public one.(ªÉúñøÿÿÿÿ
-{
-java:S1319'"eThe type of "path" should be an interface such as "List" rather than the implementation "LinkedList".(ÌÍÑÿ
-{
-java:S1319O"eThe type of "path" should be an interface such as "List" rather than the implementation "LinkedList".(ëÞ¡³
-l
-java:S1104"QMake nexts a static final constant or non-public and provide accessors if needed.(±þïÍûÿÿÿÿ
-k
-java:S1104"PMake pass a static final constant or non-public and provide accessors if needed.(úÏ·½ýÿÿÿÿ
-j
-java:S1104"OMake end a static final constant or non-public and provide accessors if needed.(­Û¿žùÿÿÿÿ
-g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ªÉúñøÿÿÿÿ
-o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(œ»ý“

@@ -2,6 +2,7 @@ package com.jacky.algorithm.高频面试题;
 
 import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 /**
  * <p>
@@ -30,6 +31,22 @@ import java.util.List;
  * @create: 2022/1/5
  **/
 public class Problem_0139_WordBreak {
+
+	public boolean wordBreak6(String s, List<String> wordDict) {
+		Set<String> wordDictSet = new HashSet(wordDict);
+		// 以i结尾的字符串能够匹配
+		boolean[] dp = new boolean[s.length() + 1];
+		dp[0] = true;
+		for (int i = 1; i <= s.length(); i++) {
+			for (int j = 0; j < i; j++) {
+				if (dp[j] && wordDictSet.contains(s.substring(j, i))) {
+					dp[i] = true;
+					break;
+				}
+			}
+		}
+		return dp[s.length()];
+	}
 
 	public static boolean wordBreak(String s, List<String> wordDict) {
 		Node root = new Node();

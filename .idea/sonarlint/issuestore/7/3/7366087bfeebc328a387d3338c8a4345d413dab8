@@ -1,9 +1,0 @@
-
-P
-java:S1118":Add a private constructor to hide the implicit public one.(éï¡Á
-m
-java:S3776"RRefactor this method to reduce its Cognitive Complexity from 20 to the 15 allowed.(£ï¯žýÿÿÿÿ
->
-java:S1125"(Remove the unnecessary boolean literals.(€À¿Ó
-b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(éï¡Á
-o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(íí¶á

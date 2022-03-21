@@ -1,14 +1,0 @@
-
-M
-java:S1854"7Remove this useless assignment to local variable "ans".(¢—ß
->
-java:S1481"(Remove this unused "ans" local variable.(¢—ß
-C
-java:S1168"&Return an empty array instead of null.(¥¹ï8‹ğÖİê/
-F
-java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ
-I
-java:S1128".Remove this unused import 'java.util.HashMap'.(™˜”€ùÿÿÿÿ
-F
-java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ
-t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¡æü¹ÿÿÿÿÿ
